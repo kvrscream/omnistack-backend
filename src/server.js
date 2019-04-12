@@ -35,4 +35,4 @@ app.use((req, res, next) => {
 });
 
 app.use(routes);
-server.listen(3001);
+server.listen(process.env.PORT || 3001);
